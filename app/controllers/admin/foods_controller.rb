@@ -8,6 +8,7 @@ class Admin::FoodsController < ApplicationController
 	end
 
 	def create
+		@food = Food.new(food_params)
 
 	end
 
@@ -25,7 +26,7 @@ class Admin::FoodsController < ApplicationController
 
 
 	private
-	
-
+	def food_params
+	end
 
 end
