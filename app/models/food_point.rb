@@ -1,0 +1,2 @@
+class FoodPoint < ApplicationRecord
+end

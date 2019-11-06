@@ -1,0 +1,2 @@
+module User::FoodPointsHelper
+end
